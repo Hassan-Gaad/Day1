@@ -1,0 +1,17 @@
+{
+  "name": "lab-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:browser": "live-server --port=9000 --mount=/:public"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "live-server": "^1.2.1",
+    "mocha": "^9.1.3"
+  }
+}
